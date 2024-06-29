@@ -1,0 +1,40 @@
+.p1{
+    text-align: center;
+    font-style: normal;
+}
+.like{
+    background-color: blue;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.ul-service{
+    text-align: center;
+    list-style-type: none;
+}
+.service{
+    display: flex;
+    justify-content: center;
+}
+
+.Contactsection{
+   background:   rgb(124, 180, 67);
+   padding: 3rem;
+}
+.sectiontitle{
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom:1rem;
+}
+
+.btn-beraten{
+  display: flex;
+  margin-left: 45rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.display-4{
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.Produkt-title{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.card {
+    all: unset;
+    margin:0.5rem;
+    margin-bottom: 2rem;
+  }

@@ -1,0 +1,629 @@
+.Shop-name {
+  text-align: center;
+
+  margin-top: 3rem;
+  color: rgb(124, 180, 67);
+  font-family: Arial, sans-serif;
+  font-style: normal;
+}
+
+.Navigationbar-header {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.nav-listitem{
+ margin-left: 1rem;
+ 
+}
+.nav-title{
+  list-style-type: none;
+}
+
+.li {
+  margin: 1rem;
+}
+
+/*------------Hintergrund der Navi Leiste --------*/
+
+.li ion-icon {
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.li a{
+  background-color: rgb(124, 180, 67);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*-------------------------------------------*/
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+.new5{
+    border: 4px solid green;
+}
+.nav-link:hover {
+  background-color: rgb(245, 244, 243);
+  border-radius: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.Container1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 80px;
+  margin-top: 0px;
+}
+.Container1 > div {
+  height: 250px;
+  background-size: cover;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.add-cart2 {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(124, 180, 67);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+/* ----Hover over Picture to show Text---- */
+
+.card1 {
+  background: url("Images/img20.jpg") no-repeat;
+  position: relative;
+}
+.card1:hover{
+  background: rgb(93, 204, 93) no-repeat;
+}
+.card1::before{
+  content: attr(data-hover);
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+.card1:hover:before{
+  visibility: visible;
+  opacity: 1;
+}
+.card1:hover .cart11{
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card2 {
+  background: url("Images/img6.jpg");
+  position: relative;
+}
+.card2:hover{
+  background: rgb(93, 204, 93) no-repeat;
+}
+.card2::before{
+  content: attr(data-hover);
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+.card2:hover:before{
+  visibility: visible;
+  opacity: 1;
+}
+.card2:hover .cart12{
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card3 {
+  background: url("Images/Picture1.jpeg");
+  position: relative;
+}
+.card3:hover{
+  background: rgb(93, 204, 93) no-repeat;
+}
+.card3::before{
+  content: attr(data-hover);
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+.card3:hover:before{
+  visibility: visible;
+  opacity: 1;
+}
+.card3:hover .cart13{
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card4 {
+  background: url("Images/img12.jpg");
+  position: relative;
+}
+.card4:hover{
+  background: rgb(93, 204, 93) no-repeat;
+}
+.card4::before{
+  content: attr(data-hover);
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+.card4:hover:before{
+  visibility: visible;
+  opacity: 1;
+}
+.card4:hover .cart14{
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card5 {
+  background: url("Images/img9.jpg");
+  position: relative;
+}
+.card5:hover{
+  background: rgb(93, 204, 93) no-repeat;
+}
+.card5::before{
+  content: attr(data-hover);
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+.card5:hover:before{
+  visibility: visible;
+  opacity: 1;
+}
+.card5:hover .cart15{
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card6 {
+  background: url("Images/img8.jpg");
+  position: relative;
+}
+.card6:hover{
+  background: rgb(93, 204, 93) no-repeat;
+}
+.card6::before{
+  content: attr(data-hover);
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+.card6:hover:before{
+  visibility: visible;
+  opacity: 1;
+}
+.card6:hover .cart16{
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card7 {
+  background: url("Images/img10.jpg");
+  position: relative;
+}
+.card7:hover{
+  background: rgb(93, 204, 93) no-repeat;
+}
+.card7::before{
+  content: attr(data-hover);
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+.card7:hover:before{
+  visibility: visible;
+  opacity: 1;
+}
+.card7:hover .cart17{
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card8 {
+  background: url("Images/img11.jpg");
+  grid-column: 2/4;
+  position: relative;
+}
+.card8:hover{
+  background: rgb(93, 204, 93) no-repeat;
+}
+.card8::before{
+  content: attr(data-hover);
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+.card8:hover:before{
+  visibility: visible;
+  opacity: 1;
+}
+.card8:hover .cart18{
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/*  -----Unnötig?-----
+.Grid-img-title{
+  position: relative;
+}
+.Grid-img-title:before {
+  content: attr(data-hover);
+  opacity: 0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+
+.Grid-img-title:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Grid-paragraph-title {
+  color: #595f64;
+  font-size: 20px;
+
+  font-family: Arial, sans-serif;
+  font-style: normal;
+
+}
+
+.Grid-img-title1 {
+  color: whitesmoke;
+  font-size: 20px;
+
+  font-family: Arial, sans-serif;
+  font-style: normal;
+}
+*/
+
+
+/*-----------------------------------------------------------------------------------*/ 
+
+.Container2 {
+  background-color: rgb(245, 244, 243);
+  width: 98%;
+  border-radius: 10px;
+  margin-left: 0.6rem;
+}
+.card {
+  margin: 1.5rem;
+}
+
+body {
+  background: #2a2e32;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+
+/* ===================================================================================
+      CUSTOM UTILS CLASSES
+    ================================================================================== */
+body,
+html {
+  height: 100%;
+}
+
+.container3 {
+  margin-top: 1rem;
+  border-radius: 0px;
+  box-shadow: none;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.card9 {
+  margin-bottom: 1rem;
+  background: url("Images/img05.jpg");
+}
+
+.card1:hover {
+  cursor: pointer;
+ background: yellowgreen;
+}
+.card2:hover {
+  cursor: pointer;
+ background: yellowgreen;
+ 
+}
+.card3:hover {
+  cursor: pointer;
+ background: yellowgreen;
+ 
+}
+.card4:hover {
+  cursor: pointer;
+ background: yellowgreen;
+
+}
+ 
+.card5:hover {
+  cursor: pointer;
+ background: yellowgreen;
+ 
+}
+.card6:hover {
+  cursor: pointer;
+ background: yellowgreen;
+ 
+}
+.card7:hover {
+  cursor: pointer;
+ background: yellowgreen;
+}
+.card8:hover {
+  cursor: pointer;
+ background: yellowgreen;
+ 
+}
+
+
+
+.Title-Rezepte {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+span {
+  color: rgb(255, 255, 255);
+}
+
+span1 {
+  color: rgb(124, 180, 67);
+}
+
+span2 {
+  color: black;
+}
+
+.Rezept_imag {
+  width: 280px;
+}
+
+
+/*----------------------------Warenkorb------------------------------*/
+
+
+ .add-cart, .btn{
+	display: inline-block;
+	background: rgb(124, 180, 67);
+	color: rgb(255, 255, 255);
+	font: 1em 'PT Serif', serif;
+	padding: 0.3em 1em;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid rgb(124, 180, 67);
+}
+
+.products-container {
+  margin-top: 1rem;
+  border-radius: 0px;
+  box-shadow: none;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products-container ion-icon {
+  font-size: 25px;
+  color: rgb(124, 180, 67);
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.products-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+ 
+}
+
+.products-titel {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price {
+  width: 15%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quantity {
+  width: 20%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.total {
+  width: 10%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.product ion-icon {
+  cursor: pointer;
+}
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.products img
+{
+    width: 75px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+    height: 75px;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalTitel {
+  width: 30%;
+}
+
+.basketTotal {
+  width: 10%;
+}
+
+@media(max-width: 500px) {
+  nav h2 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;;
+  }
+
+  .sm-hide {
+      display: none;;
+  }
+
+  .products,
+  .product-header {
+      justify-content: center;
+  }
+
+  .basketTotalContainer {
+      padding-right: 8%;
+  }
+}
